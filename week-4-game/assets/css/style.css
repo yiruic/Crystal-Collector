@@ -1,45 +1,73 @@
 body{
 	background-image: url("../images/xv_@2X.png");
   	background-size: cover;
-  	padding: 5px;
+  	padding: 20px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
   }
 
-h1.header {	
-	width: 20%;
+.jumbotron{	
 	background-color: darkorange;
 	font-size: 30px;
-	padding: 10px;
+	padding: 20px;
+	text-align: center;
+	display: inline-block;
 	} 
 
 div.description {
-	width: 50%;
-	margin-top: 10px;
-	padding: 10px;
-	background-color: lightyellow;
+	background-color: darkred;
+	display: inline-block;
+	padding: 20px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
 	}
 
 div.randomnumber {
-	width: 10%;
+	display: inline-block;
 	background-color: green;
+	padding: 10px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 div.board {
-	width: 10%;
 	background-color: lightblue;
+	padding: 20px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
-div.img {
-	width: 10%;
-	background-color: white;
+img{
 	padding: 10px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
-section.p {
+.YourTotalScoreIs{
 	display: inline-block;
 	background-color: green;
+	padding: 20px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
-section.earnedscore {
-	display: inline-block;
+.earnedscore{
 	background-color: green;
+	padding: 20px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
 }
