@@ -8,13 +8,13 @@ body{
 	margin-bottom: 20px;
   }
 
-.jumbotron{	
+.jumbotron{
 	background-color: darkorange;
 	font-size: 30px;
 	padding: 20px;
 	text-align: center;
 	display: inline-block;
-	} 
+	}
 
 div.description {
 	background-color: darkred;
@@ -26,7 +26,7 @@ div.description {
 	margin-bottom: 20px;
 	}
 
-div.randomnumber {
+/* div.randomnumber {
 	display: inline-block;
 	background-color: green;
 	padding: 10px;
@@ -34,10 +34,9 @@ div.randomnumber {
 	color: white;
 	text-align: center;
 	margin-bottom: 20px;
-}
+} */
 
-div.board {
-	background-color: lightblue;
+div.container {
 	padding: 20px;
 	margin: auto;
 	color: white;
@@ -53,21 +52,11 @@ img{
 	margin-bottom: 20px;
 }
 
-.YourTotalScoreIs{
+.panel-primary{
 	display: inline-block;
-	background-color: green;
 	padding: 20px;
 	margin: auto;
-	color: white;
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-.earnedscore{
-	background-color: green;
-	padding: 20px;
-	margin: auto;
-	color: white;
+	color: darkgrey;
 	text-align: center;
 	margin-bottom: 20px;
 }
