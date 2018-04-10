@@ -59,6 +59,8 @@ var losts = 0;
 
 	// Respond to clicks on the crystals
 		var addValues = function(clickedCrystal) {
+
+			$(".button").on("click", function(event) {
 		  // Change currentScore
 		  earnedScore += clickedCrystal.value;
 		  // Change the HTML to reflect changes in currentScore
